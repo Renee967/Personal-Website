@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-sans bg-gray-100 text-gray-800">
     <!-- Navigation -->
@@ -57,11 +62,16 @@
     </section>
 
     <!-- Contact Information Section -->
-    <section id="contact" class="p-8 bg-gray-200">
-        <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
-        <p class="text-lg">Email: <a href="mailto:your.email@example.com" class="text-blue-500">your.email@example.com</a></p>
-        <p class="text-lg">Phone: [Your Phone Number]</p>
-        <p class="text-lg">LinkedIn: <a href="https://linkedin.com/in/yourprofile" class="text-blue-500">yourprofile</a></p>
+    <section id="contact" class="p-8 bg-gray-200 flex flex-col items-center">
+        <h2 class="text-4xl font-bold mb-6">Get In Touch</h2>
+        <p class="text-lg text-center mb-6">
+            I am a highly passionate engineer with a proven track record of fast execution, effective communication, and proactive contributions.
+        </p>
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <a href="mailto:your.email@example.com" class="text-lg font-bold text-white bg-blue-500 px-6 py-3 rounded-lg hover:bg-blue-600">
+                Email Me
+            </a>
+        </div>
     </section>
 
     <!-- CV Section -->
@@ -72,7 +82,7 @@
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white text-center p-4">
-        <p>&copy; [Your Name] [Year]. All rights reserved.</p>
+        <p>&copy; Renee Mendonca 2025. All rights reserved.</p>
     </footer>
 </body>
 </html>
