@@ -13,7 +13,7 @@
 </head>
 <body class="font-sans bg-gray-100 text-gray-800">
     <!-- Navigation -->
-    <nav class="bg-gray-800 text-white p-4 fixed w-full top-0 z-10">
+    <nav class="bg-gray-900 text-white p-4 fixed w-full top-0 z-10">
         <ul class="flex justify-center space-x-6">
             <li><a href="#about" class="hover:text-gray-400">About Me</a></li>
             <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
@@ -23,10 +23,39 @@
         </ul>
     </nav>
 
+    <!-- First Page -->
+    <section class="h-screen flex flex-col justify-center items-center bg-gray-900 text-white">
+        <h1 class="text-6xl font-bold mb-4">Renee Mendonca</h1>
+        <p class="text-4xl font-semibold">AI Engineer</p>
+    </section>
+
     <!-- About Me Section -->
-    <section id="about" class="h-screen flex flex-col justify-center items-center bg-white">
-        <h1 class="text-6xl font-bold mb-4 text-purple-600">Renee Mendonca</h1>
-        <p class="text-5xl font-bold">AI Engineer</p>
+    <section id="about" class="h-screen flex flex-col justify-center bg-gray-900 text-white p-8">
+        <div class="flex flex-col md:flex-row items-center md:items-start">
+            <div class="md:w-2/3">
+                <h2 class="text-green-400 text-xl mb-2">01. About Me</h2>
+                <h1 class="text-4xl font-bold mb-4">Renee Mendonca</h1>
+                <p class="text-lg leading-relaxed mb-4">
+                    I am an AI Engineer with a Master’s in Artificial Intelligence from Queen Mary University, passionate about building intelligent systems that drive real-world impact. With a strong foundation in machine learning and deep learning, I have worked on designing and optimizing AI-driven solutions that enhance efficiency and innovation. My expertise spans across model development, data-driven decision-making, and the deployment of scalable AI applications. Staying at the forefront of emerging technologies excites me, and I am always looking for ways to push the boundaries of what AI can achieve.
+
+                </p>
+                <p class="text-lg leading-relaxed mb-4">
+                    As I progress in my career, my focus is shifting toward leadership and strategic AI development. I am driven by the goal of leading high-impact AI teams, shaping AI strategies, and fostering innovation at the intersection of technology and business. I believe that strong leadership in AI requires not only technical expertise but also the ability to inspire, mentor, and drive collaboration. My vision is to contribute to the responsible and forward-thinking adoption of AI, ensuring it is harnessed for both business success and societal advancement.
+
+                </p>
+                <ul class="text-lg leading-relaxed mb-4 grid grid-cols-2 gap-x-4">
+                    <li>▸ Java</li>
+                    <li>▸ TypeScript</li>
+                    <li>▸ Python</li>
+                    <li>▸ Amazon Web Services</li>
+                    <li>▸ Kotlin</li>
+                    <li>▸ Git</li>
+                </ul>
+            </div>
+            <div class="md:w-1/3 mt-8 md:mt-0 md:ml-8">
+                <img src="renee.jpg" alt="Renee Mendonca" class="rounded-lg shadow-lg">
+            </div>
+        </div>
     </section>
 
     <!-- Projects Section -->
